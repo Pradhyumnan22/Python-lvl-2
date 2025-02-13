@@ -1,0 +1,11 @@
+n = int(input("Enter the number of terms: "))
+start = int(input("Enter the starting number: "))
+perfcubes = []
+
+number = start
+while len(perfcubes) < n:
+    cube = number**3
+    perfcubes.append(cube)
+    number = number + 1
+    
+print(perfcubes)
